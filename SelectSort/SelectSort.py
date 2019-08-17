@@ -1,6 +1,8 @@
 import random
 
-
+#选择排序
+#在选择排序中，首先遍历整个数组，每次循环都要找到最小的那个数
+#然后把它放到新的数组中，重复以上操作，新的数组就是排序好的数组
 def FindSmallestIndex(L: list) -> int:
 	l_smallest = L[0]
 	l_smallest_index = 0
